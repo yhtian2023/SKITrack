@@ -1,1 +1,7 @@
 # SKITrack
+Human pose estimation and tracking are important tasks to help understand human behavior. Currently, human pose estimation and tracking face the challenges of missed detection due to sparse annotation of video datasets and difficulty in associating partially occluded and unoccluded cases of the same person. To address these challenges, we propose a self-supervised learning-based method, which infers the correspondence between keypoints to associate persons in the videos.
+![image](https://github.com/yhtian2023/SKITrack/assets/154076236/5c480fd9-82c7-42da-8c95-2a94ec2ecd5a)
+The contributions of this work are summarized as follows:
+* Combined with the top-down pose estimation framework, we incorporate a BPR module between the human detector and the human pose estimator, achieving tracking enhancement by predicting the human bounding box of partially occluded persons.
+* We propose a Siamese keypoint inference pose tracking network (SKITrack) that relies on self-supervision. We first pre-train the SKITrack by knowledge distillation, and then use the LGA module in the network to associate partially occluded and unoccluded cases of the same person.
+* We evaluate our approach on the PoseTrack 2018 and PoseTrack 2021 dataset for the tasks of multi-person pose estimation and human pose tracking. Experimental evaluations demonstrate that our approach achieves promising results on both multi-person pose estimation and human pose tracking tasks.
