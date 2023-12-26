@@ -1,4 +1,4 @@
-# SKITrack
+# Introduction
 Human pose estimation and tracking are important tasks to help understand human behavior. Currently, human pose estimation and tracking face the challenges of missed detection due to sparse annotation of video datasets and difficulty in associating partially occluded and unoccluded cases of the same person. To address these challenges, we propose a self-supervised learning-based method, which infers the correspondence between keypoints to associate persons in the videos.
 ![image](https://github.com/yhtian2023/SKITrack/assets/154076236/5c480fd9-82c7-42da-8c95-2a94ec2ecd5a)
 The contributions of this work are summarized as follows:
